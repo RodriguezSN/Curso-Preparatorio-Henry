@@ -45,3 +45,9 @@ var despedida = "chau ";
 var apellido = "Martinez "
 
 console.log(despedida + nombre + apellido);
+
+var modeloDeAuto1 = "corsa ";
+var modeloDeAuto2 = "renault ";
+var color1 = "rojo ";
+var color2 = "verde ";
+console.log("el auto " + modeloDeAuto2 + "es de color " + color1);
