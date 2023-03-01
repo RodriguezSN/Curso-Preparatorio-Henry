@@ -48,5 +48,6 @@ function Recordatorio(){
 }
 
 function Tiempo (){
-    
+
 }
+var auto = "coche";
