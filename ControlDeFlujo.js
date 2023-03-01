@@ -46,3 +46,17 @@ function Recordatorio(){
         )
     
 }
+
+function Recordatorioo(){
+    if (Temperatura === "llevar agua ") 
+     return ( 
+        Temperatura + "Y ponerse una gorra "
+    ); else if (Temperatura === "llevar campera ")
+        return (
+            Temperatura + "Y ponerse bufanda "
+        ); else if (Temperatura === "llevar paraguas " )
+        return (
+            Temperatura + "llevar cambio de ropa"
+        )
+    
+}
