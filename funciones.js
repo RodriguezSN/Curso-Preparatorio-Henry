@@ -6,5 +6,9 @@ function encuentraLaX(x) {
     console.log(x + 3);
 }
 
-sumaTres (5);
-encuentraLaX(10);
+
+
+function nuevaResta(x){
+    console.log (10 - x === 3);
+}
+
