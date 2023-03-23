@@ -12,3 +12,4 @@ function nuevaResta(x){
     console.log (10 - x === 3);
 }
 
+console.log(21 % 5)
