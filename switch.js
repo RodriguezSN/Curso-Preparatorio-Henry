@@ -26,27 +26,45 @@
 //         console.log("num es par");
 // }
 
-var producto = "banana"
+// var producto = "banana"
 
-switch(producto){
-    case "banana":
-    console.log("el kl de bananan esta 120$")
-    break
-    case "1/2 de banana":
-    console.log("son 60 pe master ")
-    break
-    case "tomate":
-    console.log("el kl de tomate esta 130$")
-    break
-    case "manzana":
-    console.log("el kl de manzana esta 90$")
-    break
-    case "naranja":
-    console.log("el kl de naranja esta 150$")
-    break
+// switch(producto){
+//     case "banana":
+//     console.log("el kl de bananan esta 120$")
+//     break
+//     case "1/2 de banana":
+//     console.log("son 60 pe master ")
+//     break
+//     case "tomate":
+//     console.log("el kl de tomate esta 130$")
+//     break
+//     case "manzana":
+//     console.log("el kl de manzana esta 90$")
+//     break
+//     case "naranja":
+//     console.log("el kl de naranja esta 150$")
+//     break
+//     default:
+//     console.log("Lo lamentamos, por el momento no tenemos " + producto + ".")
+// }
+
+// console.log("hay algo mas que desea consultar?")
+
+var color="blue";
+switch(color){
+    case "blue":
+       return "This is blue";
+       break;
+    case "red":
+       return "This is red";
+       break;
+    case "green":
+       return "This is green";
+       break;
+    case "orange":
+       return "This is orange";
+       break;
     default:
-    console.log("Lo lamentamos, por el momento no tenemos " + producto + ".")
-}
-
-console.log("hay algo mas que desea consultar?")
+       return "Color not found";
+ }
 

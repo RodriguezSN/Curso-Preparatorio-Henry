@@ -11,7 +11,31 @@ var suma = 0;
 // }
 // console.log("variable suma ", suma)
 
-while (suma < 3){
-    suma = suma + 1;
-    console.log(suma);
-}
+// while (suma < 20){
+//     if(suma === 15){
+//         continue
+//     }
+//     suma = suma + 1;
+//     console.log(suma);
+// }
+
+// for (var i = 0; i < 20; i++){
+//     if (i === 15){
+//         continue
+//     }
+//     console.log(i)
+// }
+
+// for (var numPar = 1.5; numPar < 20; numPar ++){
+ 
+//     console.log(numPar)
+// }
+var num=10
+
+do{
+  num = num + 5;
+  if (num <= num +40){
+    break
+  }
+  console.log(num)
+}while (num <= num + 40)
