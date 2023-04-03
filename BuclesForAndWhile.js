@@ -34,7 +34,7 @@ var num=10
 
 do{
   num = num + 5;
-  if (num <= num +40){
+  if (num  <= num +40){
     break
   }
   console.log(num)
