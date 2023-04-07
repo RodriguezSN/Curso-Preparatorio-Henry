@@ -30,12 +30,38 @@ var suma = 0;
  
 //     console.log(numPar)
 // }
-var num=10
+var num = 0
+
+// do{
+//   num = num + 5;
+//   if (num  === 40){
+//     break
+//   }
+//   console.log(num)
+// }while (num < 100)
+
+// while (num < 100){
+//   num = num + 5
+//   if(num === 40){
+//     continue
+//   }
+//   console.log(num)
+// }
+
+// for(var nu = 0;nu <= 100; nu = nu + 5){
+//   if (nu === 40){
+//     continue
+//   }
+// console.log(nu)
+// }
+
+var decimal = 0
 
 do{
-  num = num + 5;
-  if (num  <= num +40){
-    break
+  decimal =decimal + 0.5
+  if(decimal % 2===0){
+    continue
   }
-  console.log(num)
-}while (num <= num + 40)
+  console.log(decimal) 
+}while(decimal < 20)
+console.log("Resultado de decimal es " + decimal)

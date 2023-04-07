@@ -26,13 +26,29 @@ var dias2 = "lunesYmartesSonLargos"
 //     console.log(num1)
 // }
 // console.log(num1)
-var cande = 60;
-var limite =25
-paso:
-for(var lalo=0 ; lalo < 300; lalo++){
-    console.log(lalo)
-    if (lalo > 100)
-    continue paso;
-    console.log(lalo);
+// var cande = 60;
+// var limite =25
+// paso:
+// for(var lalo=0 ; lalo < 300; lalo++){
+//     console.log(lalo)
+//     if (lalo > 100)
+//     continue paso;
+//     console.log(lalo);
+// }
+// console.log(lalo)
+
+
+var mela = 0
+
+do {
+    mela = mela + 1
+} while (mela < 0)
+
+console.log(mela)
+
+var manzanas = 0
+
+while (manzanas < 0){
+    manzanas = manzanas + 1
 }
-console.log(lalo)
+console.log(manzanas)

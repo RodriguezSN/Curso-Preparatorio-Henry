@@ -15,3 +15,7 @@ partesDelAuto [3]= "rueda";
 
 
 console.log(partesDelAuto)
+
+// var sumaTres =  (x) => {
+//     return x + 3
+// }
