@@ -60,7 +60,7 @@ var decimal = 0
 do{
   decimal =decimal + 0.5
   if(decimal % 2===0){
-    continue
+    continue 
   }
   console.log(decimal) 
 }while(decimal < 20)
