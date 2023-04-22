@@ -18,3 +18,14 @@ function otraFuncion() {
         cuidadoConElConsoleLog("camilo")
     );
 }
+
+x = 1
+var suma = function (x) {
+   return x + 3 ;
+}
+
+
+
+
+
+
