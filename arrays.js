@@ -28,10 +28,15 @@ nombres.unshift("agus")
 nombres.shift("") //elimina el primero 
 nombres.pop("") //elimina el ultimo
 nombres.push ("sebastian ")      
+nombres.push ("dario");
+nombres.push ("gabi");
+nombres.push ("benja");
+nombres.push("zoe")
+nombres.push("federicolo")
 console.log("El metodo length muestra la cantidad de datos ingresados " + nombres.length);
-console.log("El orden de los datos son " + nombres)
+console.log("El orden de los datos son: " + nombres)
 var incluyeNombre = nombres.includes("cande ");
-console.log(incluyeNombre);
+console.log("Incluye el nombre solicitado? " + incluyeNombre);
 var cumpleCondicion = nombres.every ((nombre) => {
     return nombre.length <= 10
 }) 
