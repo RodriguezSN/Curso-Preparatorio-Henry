@@ -71,3 +71,27 @@
 //     console.log("ormiga es "+ ormiga)
 
 // }
+// var Numeros = [1,2,3,4,5];
+// for(i=0;i<Numeros.length;i++){
+//      console.log(Numeros[i])
+// };
+
+function encontrarLetraP(string){
+    var letras = string.split('');
+    for(var i = 0; i < letras.length;i++){
+        if (letras[i]==="p"){
+            console.log("Letra contiene p minuscula")
+        }else if(letras[i]==="P"){
+            console.log("Letra contiene P MAYUSCULA")
+        }else{console.log("Letra NO contiene P")}
+    }
+}
+
+encontrarLetraP("paPa")
+
+var Nombres = [];
+while(Nombres.length<3){
+    Nombres.push("Boom")
+}
+
+console.log(Nombres)
