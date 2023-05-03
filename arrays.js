@@ -1,24 +1,24 @@
-// var listaDeCompras = [];
-// listaDeCompras[3] = "tomate";
-// listaDeCompras[1] = "lechuga;";
+var listaDeCompras = [];
+listaDeCompras[3] = "tomate";
+listaDeCompras[1] = "lechuga;";
 
-// console.log(listaDeCompras);
-
-
-// var elementoDelArrays = listaDeCompras[3];
-// console.log(elementoDelArrays)
-// console.log(elementoDelArrays.length)
-
-// var partesDelAuto = []
-// partesDelAuto [1]= "volante";
-// partesDelAuto [3]= "rueda";
+console.log(listaDeCompras);
 
 
-// console.log(partesDelAuto)
+var elementoDelArrays = listaDeCompras[3];
+console.log(elementoDelArrays)
+console.log(elementoDelArrays.length)
 
-// var sumaTres =  (x) => {
-//     return x + 3
-// }
+var partesDelAuto = []
+partesDelAuto [1]= "volante";
+partesDelAuto [3]= "rueda";
+
+
+console.log(partesDelAuto)
+
+var sumaTres =  (x) => {
+    return x + 3
+}
 
 var nombres = ['Matias ', 'Maria ', 'Diego ', 'Rosa '];
 nombres.push("lucas ") //lo agrega al final
@@ -32,7 +32,7 @@ nombres.push ("dario");
 nombres.push ("gabi");
 nombres.push ("benja");
 nombres.push("zoe")
-nombres.push("federicolo")
+nombres.push("federico")
 console.log("El metodo length muestra la cantidad de datos ingresados " + nombres.length);
 console.log("El orden de los datos son: " + nombres)
 var incluyeNombre = nombres.includes("cande ");
@@ -48,3 +48,8 @@ var numeroCumple = numeros.every ((num) =>{
 })
 
 console.log("La condicion de numero es " + numeroCumple);
+
+var num=[1,2,3,4,5]
+for (var i=0;i<num.length;i++){
+    console.log(num[i])
+}
