@@ -76,22 +76,110 @@
 //      console.log(Numeros[i])
 // };
 
-function encontrarLetraP(string){
-    var letras = string.split('');
-    for(var i = 0; i < letras.length;i++){
-        if (letras[i]==="p"){
-            console.log("Letra contiene p minuscula")
-        }else if(letras[i]==="P"){
-            console.log("Letra contiene P MAYUSCULA")
-        }else{console.log("Letra NO contiene P")}
-    }
-}
+// function encontrarLetraP(string){
+//     var letras = string.split('');
+//     for(var i = 0; i < letras.length;i++){
+//         if (letras[i]==="p"){
+//             console.log("Letra contiene p minuscula")
+//         }else if(letras[i]==="P"){
+//             console.log("Letra contiene P MAYUSCULA")
+//         }else{console.log("Letra NO contiene P")}
+//     }
+// }
 
-encontrarLetraP("paPa")
+// encontrarLetraP("paPa")
 
-var Nombres = [];
-while(Nombres.length<3){
-    Nombres.push("Boom")
-}
+// var Nombres = [];
+// while(Nombres.length<3){
+//     Nombres.push("Boom")
+// }
 
-console.log(Nombres)
+// console.log(Nombres)
+
+
+// num= 998
+//    if (num === 9){
+//       console.log(true) 
+//    }else if(num === 98){console.log(true)
+//    }else {console.log(false)}
+
+// var array = [99,99,999,99,7];
+// var suma = -1;
+// // var maxArray = Math.max(array)
+// for(var i=0;i<array.length;i++){
+//     suma = suma + 1
+//  array.every((num)=> {
+//     console.log(num === array[suma])
+// })
+// console.log("valor de suma " + suma)
+// }
+// var array = [97,100,190,9];
+// var array = [2,2,2,3,2];
+// var suma = -1;
+// for(var i=0;i<array.length;i++){
+//    suma = suma + 1
+// var cumpleCondicion = array.every((num) => {
+//    console.log(num === array[suma]) 
+// })
+// }
+// if (array.every === true){
+//     console.log ("los valores son iguales " + true)
+// } else (array.every === false);{
+//     console.log("los valores no son iguales " +false)}
+// console.log("cumple la condicion? " + cumpleCondicion)
+// var todosIguales = array;
+// function todosIguales(arr){
+//     array.every(elem => console.log(elem === arr[0]) 
+//     )
+// }
+
+
+
+// var palabras = ["Hello", "world","red"];
+// var numeros = [1,2,3]
+// var str = numeros.toString();
+
+
+// var tabla = 0;
+// var contador = 6;
+// var tablaDeSeis = []
+// for(var i = 0; i<=10; i++){
+// tablaDeSeis[i] = 6*i 
+// } 
+// console.log(tablaDeSeis)
+// // console.log(tablaDeSeis)
+
+// var arr = [5,2,3,4]
+// arr.length = 0;
+// console.log(arr)
+
+// var frase = 'Henry';
+// var separarFrase = frase.split('')
+// separarFrase.pop();
+// separarFrase.push("i")
+// var unirFrase = separarFrase.join('')
+// console.log(unirFrase)
+
+var numeros = [1,2,3,4,5,6];
+// numeros.forEach((num) => console.log(num))
+// numeros.forEach(num => {if (num === 3){console.log(num)}})
+// var masUno = numeros.map((num) => {return num + 1})
+//  console.log(masUno)
+
+
+//  while(numeros.length < 7){
+//     numeros.push(8)
+//  }
+//  console.log(numeros)
+//  console.log(numeros.length)
+
+//  console.log(21 % 5)
+
+//  length
+var nombres = ["seba", "luca", "leo", "mateo"]
+ var ultimo = nombres.at(-1)
+ console.log(ultimo)
+
+ var num= 234
+ var separarNUm = num.split()
+ console.log(separarNUm)
