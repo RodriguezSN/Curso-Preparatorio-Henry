@@ -41,13 +41,20 @@
 
 
 var numeros = [9,8,6,7];
-var cumpleCondicionDeNumeros = numeros.every((num) => {return num > 5});
-console.log(cumpleCondicionDeNumeros);
-var mapNumeros = numeros.map((num) => {return num + 2});
-console.log(mapNumeros);
-var forEachNumeros = numeros.forEach((num)=>{console.log(num)})
-var num=[1,2,3,4,5]
-for (var i=0;i<num.length;i++){
-    console.log(num[i])
-}
+// var cumpleCondicionDeNumeros = numeros.every((num) => {return num > 5});
+// console.log(cumpleCondicionDeNumeros);
+// var mapNumeros = numeros.map((num) => {return num + 2});
+// console.log(mapNumeros);
+// var forEachNumeros = numeros.forEach((num)=>{console.log(num)})
+// var num=[1,2,3,4,5]
+// for (var i=0;i<num.length;i++){
+//     console.log(num[i])
+// }
+var ultimoArreglo = numeros.at(-1);
 
+console.log(ultimoArreglo)
+
+var array2 = ["hola", "mundo"]
+console.log(array2)
+var unir = array2.join(' ')
+console.log(unir)
