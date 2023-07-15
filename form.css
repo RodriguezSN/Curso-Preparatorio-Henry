@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header nav ul {
+    background-color: rgb(82,102,190);
+    line-height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5%;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:link{
+    background-color: white;
+    color:black
+}
+
+header nav ul li a:visited{
+    color: rgb(151,116,44)
+}
+header nav ul li a:hover{
+    color:rgb(155,19,182)
+}
+header nav ul li a:active{
+    color: rgb(43,247,179);
+}
+
+
+div{
+    background-color: rgb(213, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+form{
+    margin:25px;
+}
+div form label{
+    font-weight: 548;
+    
+}
