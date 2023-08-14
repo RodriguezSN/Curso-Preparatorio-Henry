@@ -9,27 +9,33 @@
         <nav>
             <ul>
                 <li><a href="index.html#inicio">Inicio</a></li>
-                <li><a href="about.html#aboutTokyo">About</a></li>
                 <li><a href="accommodation.html#accommodation">Hospedaje</a></li>
                 <li><a href="visits_activities.html#activities">Recorridos</a></li>
                 <li><a href="entertainment.html#entretenimiento">Entretenimiento</a></li>
+                <li><a href="about.html#aboutTokyo">About</a></li>
                 
             </ul>
         </nav>
        </header>
-        <div>
+        <div class="formulario">
             <form method="post" action="mailto:sebas.rodriguez.is123@gmail.com">
-                <label for="usuario">Usuario</label>
-                <input type="text" id="usuario" name="usuario">
-                <br>
-                <label for="email">Correo Electronico</label>
-                <input type="email" name="email" id="email">
-                <br>
-                <label for="comentario">Comentario</label>
+                <div class="usuario">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" id="usuario" name="usuario">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="comentario">
+                    <label for="comentario">Comentario</label>
                <br>
-                <textarea  id="comentario"name="consultas" rows="5" cols="33"></textarea>
+                    <textarea  id="boxcomentario"name="consultas" rows="5" cols="33"></textarea>
+                </div >
                 <br>
+                <div class="boton">
                 <input type="submit" value="Enviar">
+                </div>
             </form> 
         </div>
         

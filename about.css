@@ -2,65 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-
-}
-
-header{
-    background-color: rgb(82, 102, 190);
-    padding: 15px ;
-    margin: 0%;
     font-family: sans-serif;
-    display:block;
-}
-header div{
-    background-color: rgb(82, 102, 190);
-    padding: 15px;
-    /* margin-left: 25%; */
-    display: inline-flexbox;
-}
-
-header div nav{
-    background-color: rgb(82, 102, 190);
-    padding: 10px;
-    width: 100%;
-    height: 5vh;
-
 }
 header div nav ul{
-    list-style-type: none;
-    
-    
-}
-header div nav ul {
-    
-    /* float:right; */
-    margin-right: 20px;
-    line-height: 3vh;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-around;    
-}
-
-header div nav ul li{
-    display: inline-block;
-    /* margin-left: 10px; */
-    
+    list-style-type: none;
+    background-color: rgb(82, 102, 190);
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 header div nav ul li a{
-    background-color: rgb(255, 255, 255);
-    padding: 5%;
-    margin-left: 30px;
-   
-}
-a{
-    
-    font-weight: 600;
     text-decoration: none;
-    padding: 5px;
-    background-color: black;
-    border-radius: 5%;
-    border-color: rgb(10, 10, 9);
+    padding: 10px;
+    margin: 0;
+    border: 2px solid white;
+    border-radius: 6%;
+    font-weight: 600;
 }
 header div nav ul li a:link{
     background-color:white;
@@ -96,3 +57,7 @@ p{
 main p b{
     font-size: x-large;
 }
+/* * {
+    ayuda a ver las caja de cada etiqueta
+    outline: 1px solid red !important;
+ } */

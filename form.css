@@ -7,21 +7,18 @@
 
 header nav ul {
     background-color: rgb(82,102,190);
-    line-height: 12vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-}
-header nav ul li{
-    display: inline-block;
+    width: 100%;
+    height: 100px;
+    list-style-type: none;
 }
 
 header nav ul li a{
-    background-color: white;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid white;
-    border-radius: 5%;
-    color: black;
+    border-radius: 6%;
     text-decoration: none;
     font-weight: 600;
 }
@@ -42,18 +39,33 @@ header nav ul li a:active{
 }
 
 
-div{
-    background-color: rgb(213, 231, 231);
+.formulario{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(215, 234, 250);
+}
+.usuario{
+    margin: 15px;
+}
+.email{
+    margin: 15px;
+}
+.comentario{
+    margin: 15px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     
 }
-form{
-    margin:25px;
-}
-div form label{
-    font-weight: 548;
-    
+.boton input{
+    background-color: greenyellow;
+    padding: 5px;
+    font-weight: 600;
 }

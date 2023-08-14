@@ -8,22 +8,22 @@
 
 header div nav ul {
     background-color: rgba(82, 102, 190);
-    line-height: 12vh; 
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-header div nav ul li{
-    display: inline-block;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 header div nav ul li a{
-    background-color: white;
-    padding: 5px;
-    border-radius: 5%;
-    border: 2px solid white;
-    color: black;
     text-decoration: none;
-    font-weight: 600 ;
+    padding: 10px;
+    margin: 0;
+    border:2px solid white;
+    border-radius: 6%;
+    font-weight: 600; 
 }
 header div nav ul li a:link{
     background-color:white;
